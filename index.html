@@ -7,29 +7,41 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Easybank landing page</title>
 </head>
 
 <body>
   <header>
     <img src="images/logo.svg" alt="easybank-logo">
-    <ul class="menu">
-      <li id="home"><a href="#">Home</a></li>
-      <li id="about"><a href="#">About</a></li>
-      <li id="contact"><a href="#">Contact</a></li>
-      <li id="blog"><a href="#">Blog</a></li>
-      <li id="careers"><a href="#">Careers</a></li>
-    </ul>
+    <a href="#" id="menu-on">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <nav>
+      <ul class="menu">
+        <li id="home"><a href="#">Home</a></li>
+        <li id="about"><a href="#">About</a></li>
+        <li id="contact"><a href="#">Contact</a></li>
+        <li id="blog"><a href="#">Blog</a></li>
+        <li id="careers"><a href="#">Careers</a></li>
+      </ul>
+    </nav>
     <button class="invitation">Request Invite</button>
   </header>
   <main>
-    <section class="principal">
-      <h1>Next generation digital banking</h1>
-      <p>Take your financial life online. Your Easybank account will be a one-stop-shop
-        for spending, saving, budgeting, investing, and much more.</p>
-      <button class="invitation">Request Invite</button>
-      <img src="images/image-mockups.png">
+    <section class="main-content">
+      <div>
+        <h1>Next generation digital banking</h1>
+        <p>Take your financial life online. Your Easybank account will be a one-stop-shop
+          for spending, saving, budgeting, investing, and much more.</p>
+        <button class="invitation">Request Invite</button>
+      </div>
+      <div class="mockup">
+        <img src="images/image-mockups.png">
+      </div>
     </section>
     <section class="box-benefits">
       <div class="title-benefits">
