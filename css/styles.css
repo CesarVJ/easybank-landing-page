@@ -114,12 +114,6 @@ nav a{
     color: #000;
     padding: 10px 
 }
-nav a:hover{
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-image-source: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  border-image-slice: 1;
-}
 .invitation{
     color: hsl(0, 0%, 100%);
     padding: 1rem 2rem;
@@ -246,6 +240,7 @@ footer ul{
         grid-template-columns: 0.8fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: "text  image";
+	background-image: none;
     }
     .main-content div {
         display: flex;
@@ -350,6 +345,12 @@ footer ul{
     }
     footer .logo{
       color: #fff;	
+    }
+    nav a:hover{
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-image-source: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+      border-image-slice: 1;
     }
 
 }

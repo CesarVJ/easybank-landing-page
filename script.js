@@ -1,8 +1,11 @@
-function showMenu(){
-    let menu = document.querySelector('nav');
-    if(menu.style.getPropertyValue('display') == 'none'){
-        menu.style.setProperty('display','block');
-    }else{
-        menu.style.setProperty('display','none');
-    }
-}
+let menu = document.querySelector('#menu-on');
+
+menu.addEventListener('input',function(e){
+    let main = document.querySelector('.main-content');
+  if(e.target.checked==true){
+    main.style.backgroundImage="linear-gradient(to bottom,hsl(233, 26%, 24%), white)";
+  }else{
+    main.style.backgroundImage="";
+  }
+
+});
