@@ -118,18 +118,27 @@ nav a{
     color: #000;
     padding: 10px 
 }
+nav a:hover{
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-image-source: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-image-slice: 1;
+}
 .invitation{
     color: hsl(0, 0%, 100%);
     padding: 1rem 2rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image:linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     border: 0px;
     border-radius: 45px;
     outline: none;    
     cursor: pointer;
 }
+
 .invitation:hover{ 
+    background-image:linear-gradient(to right, hsla(136, 65%, 51%, 0.6), hsla(192, 70%, 51%,0.6));
 }
+
 
 .main-content{
     display: grid;
@@ -319,6 +328,14 @@ footer ul{
         list-style: none;
         width: 30%;
         display: inline-block;
+    }
+    footer ul a{
+      text-decoration: none;
+      color: #fff;
+    }
+    footer ul a:hover{
+      font-weight: 900;
+      cursor: pointer;
     }
     .social{
         width: 20%;
