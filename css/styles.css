@@ -197,6 +197,14 @@ footer ul{
     list-style: none;
     padding: 0px;
 }
+footer ul a{
+      text-decoration: none;
+      color: #fff;
+    }
+    footer ul a:hover{
+      font-weight: 900;
+      cursor: pointer;
+    }
 
 .logos img{
     margin-left: 10px;
