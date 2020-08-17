@@ -204,7 +204,7 @@ footer ul{
 }
 
 
-@media screen and (min-width: 620px){
+@media screen and (min-width: 720px){
 
     header{
         display: flex;
@@ -260,15 +260,14 @@ footer ul{
     }
     .mockup{
         background: url('../images/bg-intro-desktop.svg') -30% 10% /100% no-repeat;
-        min-height: 650px;
+        min-height: 610px;
+	position: relative; 
     }
     .mockup img{
-        width: auto;
+        width: 85%;
         position: absolute;
         top: -10%;
-        left: 40%;
         z-index: 0;
-        overflow: hidden;
     }
     .box-benefits{
         display: grid;
