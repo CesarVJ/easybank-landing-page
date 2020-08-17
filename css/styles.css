@@ -39,24 +39,20 @@ header > .invitation{
     display:none;
 }
 
-header input[type=checkbox]{
-    opacity: 0;
-    z-index: 2;
-    cursor: pointer;
-    position: absolute;
-    right: -22%;
-}
 .menu{
     padding:0;
 }
 #menu-on{
+    opacity: 0;
     display: inline-block;
-    width: 30px;
-    height: 20px;
+    width: 60px;
+    height: 25px;
     position: relative;
     z-index: 2;
     user-select: none;
     cursor: pointer;
+    margin-bottom: 5px;
+    right: -27%;
 }
 header span{
     display: block;
