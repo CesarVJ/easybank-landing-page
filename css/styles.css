@@ -126,11 +126,14 @@ nav a{
     border: 0px;
     border-radius: 45px;
     outline: none;    
+    cursor: pointer;
+}
+.invitation:hover{ 
 }
 
 .main-content{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.8fr;
     grid-template-areas: "image" "text";
     z-index: 1;
 }
@@ -146,7 +149,7 @@ nav a{
 .mockup{
     background: url('../images/bg-intro-mobile.svg') 0px 43% /100% no-repeat;
     grid-area: image;
-    min-height: 320px;
+    min-height: 530px;
 }
 .mockup img{
     width: 100%;
@@ -331,6 +334,9 @@ footer ul{
         text-align: center;
         margin: 1rem;
         margin-bottom: 0;
+    }
+    footer .logo{
+      color: #fff;	
     }
 
 }
